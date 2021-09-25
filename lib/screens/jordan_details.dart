@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class ItemScreen extends StatelessWidget {
+class JordanDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_jordan_onboarding_app/screens/screen.dart';
+import 'package:flutter_jordan_onboarding_app/utilities/home.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,14 +10,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Air Jordans',
       theme: ThemeData(
      
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
        
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Screen(),
+      home: Home(),
     );
   }
 }
